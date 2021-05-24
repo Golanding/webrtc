@@ -1,6 +1,6 @@
 module github.com/pion/webrtc/v3
 
-go 1.13
+go 1.16
 
 require (
 	github.com/onsi/ginkgo v1.16.1 // indirect
@@ -19,5 +19,8 @@ require (
 	github.com/pion/transport v0.12.3
 	github.com/sclevine/agouti v3.0.0+incompatible
 	github.com/stretchr/testify v1.7.0
-	golang.org/x/net v0.0.0-20210420210106-798c2154c571
+	golang.org/x/crypto v0.0.0-20210513164829-c07d793c2f9a // indirect
+	golang.org/x/net v0.0.0-20210521195947-fe42d452be8f
+	golang.org/x/sys v0.0.0-20210521203332-0cec03c779c1 // indirect
+	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 )
